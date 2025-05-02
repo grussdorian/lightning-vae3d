@@ -12,7 +12,7 @@ All supporting data, including microstructure volume elements and pretrained mod
 ### Install with `pip`
 
 ```
-git clone https://git.ccfe.ac.uk/hf8345/lightning-vae3d.git
+git clone https://github.com/micmog/lightning-vae3d
 cd lightning-vae3d
 pip install .
 ```
@@ -21,7 +21,7 @@ pip install .
 ## Examples
 
 Example scripts for training the VAE are provided and only require modification on the `TRAIN_DIR` and `VAL_DIR`
-parameters to point to the relevant data. Pretrained models can be loaded by setting the paramter `load_model=True` and
+parameters to point to the relevant data. Pretrained models can be loaded by setting the parameter `load_model=True` and
 specifying a `checkpoint_path`.
 
 An example of a simple fully connected network that was used as the surrogate model in the
