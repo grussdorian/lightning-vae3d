@@ -6,7 +6,7 @@ All supporting data, including microstructure volume elements and pretrained mod
 [Zenodo](https://zenodo.org/records/15261939).
 
 
-## Installation
+## Installation
 
 
 ### Install with `pip`
