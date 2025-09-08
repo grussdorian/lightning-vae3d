@@ -12,7 +12,7 @@ class Dataset3D(Dataset):
 
     def __init__(self, root_dir):
         self.root_dir = root_dir
-        self.filenames = sorted(glob.glob(f'{self.root_dir}*.pt'))
+        self.filenames = sorted(glob.glob(os.path.join(self.root_dir, "*.pt")))
 
     def __len__(self):
         return len(self.filenames)
